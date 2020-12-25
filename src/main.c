@@ -113,9 +113,9 @@ static int usage(char *exe) {
             "  [--backend dummy|alsa|pulseaudio|jack|coreaudio|wasapi]\n"
             "  [--device id]\n"
             "  [--raw]\n"
-            "  [--rate sample_rate]"
-            "  [--mgroup group_address]"
-            "  [--port udp_port]"
+            "  [--rate sample_rate]\n"
+            "  [--mgroup group_address]\n"
+            "  [--port udp_port]\n"
             , exe);
     return 1;
 }
